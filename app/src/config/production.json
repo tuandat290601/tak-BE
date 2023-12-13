@@ -1,0 +1,34 @@
+{
+  "JWT": {
+    "Secret": "Local_Secret_1",
+    "refreshTokenSecret": "Local_Refresh_5",
+    "tokenLife": 90000,
+    "refreshTokenLife": 86400
+  },
+  "Port": 3000,
+  "Storage": "/storage",
+  "Database": {
+    "DB_DIALECT": "postgres",
+    "DB_DATABASE": "ckwhite",
+    "DB_USER": "postgres",
+    "DB_PASS": "ckwhite@2023",
+    "DB_HOST": "34.143.147.77",
+    "DB_PORT": 5432
+  },
+  "LoggingService": {
+    "IsEnabled": true,
+    "Mode": "dconsole",
+    "Timeout": 3000,
+    "Url": ""
+  },
+  "smtpOptions": {
+    "service": "gmail",
+    "auth": {
+      "user": "user@gmail.com",
+      "pass": "1234#"
+    }
+  },
+  "frontEndHost": "http://localhost:3000",
+  "MailHomeAddress": "",
+  "DefaultIMG": ""
+}
